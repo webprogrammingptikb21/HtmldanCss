@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form HTML</title>
+    <!-- <input type="text",password, radio, checkbox -->
+  </head>
+  <body>
+    <form action="">
+      <!-- label untuk menandai sebuah input -->
+      <label for="username"> Username :</label>
+      <input type="text" id="username" name="username" />
+      <br />
+      <label for="password">Password :</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <input type="radio" id="pria" name="gender" /> <label for="pria">Pria</label> <input type="radio" id="wanita" name="gender" /> <label for="wanita">Wanita</label><br />
+      <input type="checkbox" id="menyanyi" />
+      <label for="menyanyi" id="menyanyi1">Menyanyi</label>
+      <input type="checkbox" id="futsal" />
+      <label for="futsal">futsal</label>
+      <br />
+      <textarea name="text" id="text"></textarea>
+      <br />
+      <label for="select">asal daerah:</label>
+      <select name="select" id="select">
+        <option>Makassar</option>
+        <option>Gowa</option>
+        <option>Takalar</option>
+      </select>
+      <br />
+      <button>kirim!</button>
+    </form>
+    <script>
+      const nyanyi = document.getElementById("menyanyi1");
+      nyanyi.innerHTML = "nyanyian";
+      nyanyi.style.color = "red";
+    </script>
+  </body>
+</html>

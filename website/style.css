@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 0.5rem;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: orangered;
+}
+
+.hero {
+  height: 350px;
+  background-size: cover;
+  background-image: url(./labtop.jpg);
+  background-position: 0 -160px;
+  border-top: 5px solid lightblue;
+  border-bottom: 5px solid green;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 25px;
+}
+
+.content .penulis {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .copy {
+  color: white;
+}
